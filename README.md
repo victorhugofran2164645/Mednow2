@@ -1,59 +1,60 @@
-# Sabor-Express — Roteamento Inteligente (pacote entregue)
+# 🚗 GoldenCar 
 
-**Este pacote contém uma implementação completa e reproduzível do projeto Sabor-Express**, feito para avaliação. O objetivo é sugerir rotas de entrega eficientes para uma frota baseada em clusterização + roteamento em um grafo grid.
+## GoldenCar Assistente Vendas
 
-## Estrutura do repositório
-```
-/ (root)
-├─ src/rota_inteligente.py        # script principal (pode ser executado)
-├─ data/pedidos_exemplo.csv      # dados de pedidos de exemplo
-├─ docs/                         # outputs gerados (imagens, html, json)
-├─ requirements.txt
-├─ README.md
-```
+Sistema inteligente para agilizar e otimizar o processo de venda de veículos
 
-## O que está incluído (checagem contra o edital)
-- ✅ **Descrição do problema e objetivos**: presente neste README e no header do script.
-- ✅ **Abordagem adotada**: KMeans (clusterização) + roteamento em um grafo grid com A* entre pontos (detalhado no README e código).
-- ✅ **Algoritmos utilizados**: KMeans (implementação própria, explicada), A* (implementação própria), heurística greedy para construção de rotas (NN - nearest neighbor).
-- ✅ **Diagrama do grafo/modelo**: `docs/diagrama_grafo_rotas.png` (gerado automaticamente pelo script).
-- ✅ **Código-fonte completo e organizado**: todo código em `src/`.
-- ✅ **Arquivos de dados**: `data/pedidos_exemplo.csv` incluído.
-- ✅ **Outputs relevantes**: `docs/diagrama_grafo_rotas.png`, `docs/rotas_entrega_real.html`, `docs/rotas_detalhes.json`.
-- ✅ **Instruções claras de execução** (abaixo).
-
-## Como executar (passo a passo)
-Recomendado: criar virtualenv, instalar dependências e rodar o script.
-
-```bash
-python -m venv .venv
-# Linux / Mac
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-
-pip install -r requirements.txt
-python src/rota_inteligente.py --data data --docs docs --k 3
-```
-
-Saídas geradas em `docs/`:
-- `diagrama_grafo_rotas.png` — diagrama com pedidos, centroides, depósito e rotas;
-- `rotas_entrega_real.html` — arquivo HTML simples com a imagem e resumo;
-- `rotas_detalhes.json` — detalhes dos clusters e rotas (para validação).
-
-## Análise de resultados e limitações
-- A clusterização reduz o espaço de busca e atribui grupos de entregas a cada veículo.
-- O A* foi usado entre pontos (nós de grid). A solução de roteamento dentro de cada cluster é uma aproximação greedy (nearest neighbor) — **não é** solução ótima TSP.
-- Limitações: implementação de demonstração (mapa grid fictício), não usa dados reais de ruas (OSM) e não considera capacidades reais dos veículos, janelas de tempo ou restrições de trânsito.
-- Sugestões de melhoria: integrar OSMnx para gerar um grafo real de ruas, usar solver de VRP (ex: OR-Tools) para otimização com capacidades, adicionar simulações de tempo de serviço, e testes de desempenho para escalabilidade.
-
-## Arquivos de dados
-- `data/pedidos_exemplo.csv` — 30 pedidos de exemplo (colunas: id, x, y, demand).
-
-## Observações finais
-Se quiser, eu posso:
-- abrir um Pull Request no seu repositório com esses arquivos; ou
-- gerar um patch/zip para upload manual (eu já gerei um arquivo zip disponível para download).
+O GoldenCar Assistente Vendas é um programa desenvolvido para ajudar vendedores de carros a acelerar o processo de compra e venda, oferecendo automação, organização de informações e suporte inteligente durante o atendimento ao cliente.
+O objetivo é aumentar a eficiência do vendedor, melhorar a experiência do comprador e reduzir o tempo total de negociação.
 
 ---
-*Gerado automaticamente por assistência - Sabor-Express pack.*
+
+
+## Principais Funcionalidades
+
+### Gestão Inteligente de Veículos
+- Cadastro rápido de carros (modelo, ano, quilometragem, preço, etc.).
+- Busca avançada por filtros.
+- Comparação de veículos lado a lado.
+
+## Assistência ao Vendedor
+- Sugestões automáticas de veículos para o perfil do cliente
+- Geração rápida de propostas.
+- Sistema de follow-up integrado.
+
+## Geração Automática de Documentos
+- Contratos, propostas e orçamentos.
+- Exportação em PDF ou envio direto ao cliente
+
+## Painel de Desempenho
+- Métricas de vendas.
+- Tempo médio de negociação.
+- Indicadores de estoque.
+
+## Inteligência Integrada (IA)
+- Análise de intenção do cliente.
+- Recomendações automáticas de preço
+- Assistente para responder dúvidas rapidamente.
+
+
+
+# Sobre a GoldenCar
+
+A GoldenCar é uma solução pensada para empresas de venda de veículos que buscam otimizar processos e aumentar produtividade.
+O software foi desenvolvido para ser:
+
+- Rápido
+
+- Eficiente
+
+- Amigável para o vendedor
+
+- Focado no cliente final
+  
+
+# Arquitetura do Projeto
+
+- Frontend Interface para vendedores e gestores
+- Backend API para armazenamento e processamento
+- Banco de Dados Armazena informações de clientes, carros e vendas
+- Módulo de IA Gera recomendações automáticas e insights
