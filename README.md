@@ -25,19 +25,19 @@ O objetivo principal é aumentar a produtividade dos vendedores, melhorar a expe
 - Contratos, propostas e orçamentos.
 - Exportação em PDF ou envio direto ao cliente
 
-## Painel de Desempenho
+## 📊 Painel de Desempenho
 - Métricas de vendas.
 - Tempo médio de negociação.
 - Indicadores de estoque.
 
-## Inteligência Integrada (IA)
+## 🧠 Inteligência Integrada (IA)
 - Análise de intenção do cliente.
 - Recomendações automáticas de preço
 - Assistente para responder dúvidas rapidamente.
 
 
 
-# Sobre a GoldenCar
+# 🏢 Sobre a GoldenCar
 
 A GoldenCar é uma solução pensada para empresas de venda de veículos que buscam otimizar processos e aumentar produtividade.
 O software foi desenvolvido para ser:
@@ -52,7 +52,7 @@ O software foi desenvolvido para ser:
 
   Seu objetivo é trazer tecnologia e automação para simplificar processos e aumentar a conversão em vendas.
 
-# Arquitetura do Projeto
+# 🧱 Arquitetura do Projeto
 ```
 Golden Car - Assistente AI
 ├── Frontend
@@ -81,9 +81,11 @@ Golden Car - Assistente AI
 
 ## 🚀 Como Executar o Projeto
 
-Para executar app entre no site 
+Acesse o sistema diretamente pelo link:
 
-https://golden-car-4cc55.web.app/
+👉 https://golden-car-4cc55.web.app/
+
+Nenhuma instalação é necessária.
 
 ---
 
@@ -97,6 +99,15 @@ https://golden-car-4cc55.web.app/
 - (Opcional) Adicione o veículo usado do cliente para avaliação
 - Gere a proposta personalizada
 - Finalize a venda
+
+
+
+
+
+
+
+
+
 
 
 
