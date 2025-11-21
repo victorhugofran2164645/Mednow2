@@ -1,8 +1,8 @@
 # 🚗 GoldenCar 
 
-## GoldenCar Assistente Vendas
+## Golden Car - Assistente AI
 
-O GoldenCar Assistente de Vendas é um sistema inteligente criado para apoiar vendedores e concessionárias no processo de compra e venda de veículos. Ele oferece ferramentas de automação, geração de documentos, análise de dados e inteligência artificial para tornar o atendimento ao cliente mais rápido, eficiente e profissional.
+O Golden Car - Assistente AI é um sistema inteligente criado para apoiar vendedores e concessionárias no processo de compra e venda de veículos. Ele oferece ferramentas de automação, geração de documentos, análise de dados e inteligência artificial para tornar o atendimento ao cliente mais rápido, eficiente e profissional.
 
 O objetivo principal é aumentar a produtividade dos vendedores, melhorar a experiência do comprador e reduzir o tempo total da negociação, centralizando informações e automatizando tarefas repetitivas.
 
@@ -54,7 +54,7 @@ O software foi desenvolvido para ser:
 
 # Arquitetura do Projeto
 ```
-GoldenCar
+Golden Car - Assistente AI
 ├── Frontend
 │   └── Interface para vendedores e gestores
 ├── Backend
@@ -77,7 +77,18 @@ GoldenCar
 
 ---
 
-## 📲 Como Usar
+
+
+## 🚀 Como Executar o Projeto
+
+Para executar app entre no site 
+
+https://golden-car-4cc55.web.app/
+
+---
+
+
+## 🖥️ Como Usar
 
 - Inicie o sistema
 - Faça login como vendedor
@@ -90,8 +101,3 @@ GoldenCar
 
 
 
-## 🚀 Como Executar o Projeto
-
-Para executar app entre no site 
-
-https://golden-car-4cc55.web.app/
