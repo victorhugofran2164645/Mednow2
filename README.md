@@ -58,3 +58,11 @@ O software foi desenvolvido para ser:
 - Backend API para armazenamento e processamento
 - Banco de Dados Armazena informações de clientes, carros e vendas
 - Módulo de IA Gera recomendações automáticas e insights
+
+---
+
+## 🚀 Como Executar o Projeto
+
+Para executar app entre no site 
+
+https://golden-car-4cc55.web.app/
