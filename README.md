@@ -9,19 +9,19 @@ O objetivo principal é aumentar a produtividade dos vendedores, melhorar a expe
 ---
 
 
-## Principais Funcionalidades
+## ⭐ Principais Funcionalidades
 
-### Gestão Inteligente de Veículos
+## 🔧 Gestão Inteligente de Veículos
 - Cadastro rápido de carros (modelo, ano, quilometragem, preço, etc.).
 - Busca avançada por filtros.
 - Comparação de veículos lado a lado.
 
-## Assistência ao Vendedor
+## 🤖 Assistência ao Vendedor
 - Sugestões automáticas de veículos para o perfil do cliente
 - Geração rápida de propostas.
 - Sistema de follow-up integrado.
 
-## Geração Automática de Documentos
+## 📄 Geração Automática de Documentos
 - Contratos, propostas e orçamentos.
 - Exportação em PDF ou envio direto ao cliente
 
