@@ -12,7 +12,7 @@ O objetivo principal é aumentar a produtividade dos vendedores, melhorar a expe
 ## ⭐ Principais Funcionalidades
 
 ## 🔧 Gestão Inteligente de Veículos
-- Cadastro rápido de carros (modelo, ano, quilometragem, preço, etc.).
+- Cadastro rápido de carros com AI (modelo, ano, quilometragem, preço, etc.).
 - Busca avançada por filtros.
 - Comparação de veículos lado a lado.
 
@@ -94,7 +94,7 @@ Nenhuma instalação é necessária.
 
 - Inicie o sistema
 - Faça login como vendedor
-- Cadastre o cliente
+- Cadastre carro com AI
 - Escolha o carro desejado no estoque
 - (Opcional) Adicione o veículo usado do cliente para avaliação
 - Gere a proposta personalizada
